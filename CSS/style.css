@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 237, 238);
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+#logo {
+    background-color: rgb(34, 47, 63);
+    height:70px;
+}
+
+#amzlogo {
+    height: 40px;
+    padding-left: 40px;
+    padding-top: 13px;
+}
+
+#menuContainer {
+    background-color: rgb(54, 71, 89);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.menuSpan {
+    color: rgb(233, 237, 238);
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 30px;
+       
+}
+
+#all {
+    margin-left: 40px;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+#arancio {
+    background-color: rgb(245, 102, 0);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#holiday {
+    color: rgb(233, 237, 238);
+    text-decoration: none;
+}
+
+#titolo {
+    background-image: url(/assets/bg-image.png);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolo {
+    color: rgb(233, 237, 238);
+}
+
+#gogifter {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.contenitore1 {
+    background-color: white;
+    padding-bottom: 1.7%;
+}
+
+.boxTitle {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-top: 35px;
+}
+
+#shopNow {
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: medium;
+    color: rgb(2, 113, 131);
+
+}
+
+#perfectGift {
+    font-weight: 500;
+    font-size: large;
+    align-items: end;
+    margin-bottom: 0;
+    margin-left: 2.5%;
+}
+
+#immagini {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.boxImg1 {
+    width: 22%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px rgb(192, 192, 192);
+}
